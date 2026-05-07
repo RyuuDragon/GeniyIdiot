@@ -80,9 +80,8 @@ dotnet run
 
 ## 💻 Пример кода
 
-### Эффект «обследования» с таймером
-```csharp
 ###Сохранение в JSON
+```csharp
 public static void Append(string[] results)
 {
     var userResults = GetAll();
