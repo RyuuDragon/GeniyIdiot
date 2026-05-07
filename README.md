@@ -106,6 +106,21 @@ public static List<string[]> GetAll()
     var usersResults = JsonConvert.DeserializeObject<List<string[]>>(data);
     return usersResults;
 }
+
+public static void SaveAll(string path, string data)
+{
+    using (var writer = new StreamWriter(path, false))
+    {
+        writer.WriteLine(data);
+    }
+}
+
+public static string Load(string path)
+{
+    using var reader = new StreamReader(path);
+    var data = reader.ReadToEnd();
+    return data;
+}
 ```
 ## Видео из игры
 
