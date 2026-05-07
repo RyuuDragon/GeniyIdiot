@@ -28,7 +28,7 @@
 
 ## 🚀 Как запустить
 
-**Что нужно:** [![.NET](https://img.shields.io/badge/.NET-10.0%20Preview-orange?style=for-the-badge&logo=dotnet&logoColor=white)]() или свежее.
+**Что нужно:** [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)]() или свежее.
 
 ### Консольная версия
 ```bash
