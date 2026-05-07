@@ -1,6 +1,6 @@
 # GeniyIdiot
 Шуточная игра для выставления "шуточного" диагноза игроку. Написан для консоли и в WinForms-приложении с использованием общей библиотеки и сохранением файлов в формате json.
-# 🩺 DiagnosticGame — поставь себе шуточный диагноз
+# 🩺 Гений/Идиот — поставь себе шуточный диагноз
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Console-lightgrey)]()
