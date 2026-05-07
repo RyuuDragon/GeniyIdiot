@@ -60,3 +60,50 @@ dotnet run
 |  | <img width="1450" height="719" alt="image" src="https://github.com/user-attachments/assets/5d1b41c2-114b-4b7a-8185-ada2f5cb7d24" /> |
 
 ---
+
+## 🛠️ Технологии и чему я научился
+
+### Стек технологий
+[![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)]()
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)]()
+[![WinForms](https://img.shields.io/badge/WinForms-5C2D91?style=for-the-badge&logo=.net&logoColor=white)]()
+[![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)]()
+
+### Чему научился в процессе
+- **Разделение логики и интерфейса.** Вынес всю игровую механику в отдельную библиотеку классов для разделения сущностей и логики работы кода.
+- **Принципы ООП на практике.** Использовал наследование и инкапсуляцию. Создал отдельные классы для вопросов, диагнозов и логики игры.
+- **Работа с таймером.**.
+- **Сериализация в JSON.** Научился сохранять и загружать данные из файла `data.json`, чтобы прогресс не терялся между запусками.
+- **Создание графического интерфейса.** Освоил базовые элементы WinForms: кнопки, текстовые поля, метки, обработчики событий.
+- **Работа с коллекциями**.
+- **Git и GitHub.**.
+
+## 💻 Пример кода
+
+### Эффект «обследования» с таймером
+```csharp
+###Сохранение в JSON
+public static void Append(string[] results)
+{
+    var userResults = GetAll();
+    userResults.Add(results);
+    Save(userResults);
+}
+
+public static void Save(List<string[]> results)
+{
+    var data = JsonConvert.SerializeObject(results, Formatting.Indented);
+    FileManager.SaveAll(Path, data);
+}
+
+public static List<string[]> GetAll()
+{
+    if (IsEmpty())
+    {
+        return new List<string[]>();
+    }
+
+    var data = FileManager.Load(Path);
+    var usersResults = JsonConvert.DeserializeObject<List<string[]>>(data);
+    return usersResults;
+}
