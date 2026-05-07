@@ -20,7 +20,7 @@
 
 ## 🧱 Архитектура проекта
 
-(<img width="531" height="1055" alt="image" src="https://github.com/user-attachments/assets/6dcb4736-d966-407d-977c-2906d06f7f9c" />)
+<img width="531" height="1055" alt="image" src="https://github.com/user-attachments/assets/6dcb4736-d966-407d-977c-2906d06f7f9c" />
 
 Вся логика игры вынесена в общую библиотеку **GeniyIdiot.Common**. Консольная и WinForms версии используют её, но имеют собственные интерфейсы.
 
