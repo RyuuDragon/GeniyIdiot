@@ -107,5 +107,7 @@ public static List<string[]> GetAll()
     return usersResults;
 }
 ```
-<img width="400" height="220" alt="Запись 2026-05-07 225011" src="https://github.com/user-attachments/assets/a5e08d49-d621-401e-94d3-82307b956b85" />
+#Видео из игры
+
+<img width="1716" height="942" alt="Запись-2026-05-07-225011" src="https://github.com/user-attachments/assets/53716804-5a48-4c7f-969e-5b526d856f4d" />
 
