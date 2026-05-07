@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="GeniyIdiot.Common/GeniyIdiot.Common.csproj" Id="206bfb42-08b3-4b2b-9d45-a06a2bd35c46" />
+  <Project Path="GeniyIdiotConsoleApp/GeniyIdiotConsoleApp.csproj" />
+  <Project Path="GeniyIdiotWinFormsApp/GeniyIdiotWinFormsApp.csproj" Id="2dd6b2a7-8cb6-4d8f-84b0-551e51016e5d" />
+</Solution>
