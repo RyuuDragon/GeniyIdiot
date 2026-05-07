@@ -52,6 +52,6 @@ dotnet run
 
 | Консоль | WinForms |
 |---|---|
-| !(<img width="1740" height="928" alt="2026-05-07_22-07-42" src="https://github.com/user-attachments/assets/08f199aa-6255-4599-9ab8-6f615baaf3e5" />) | !(<img width="955" height="650" alt="image" src="https://github.com/user-attachments/assets/15e8f5b6-6f84-49f1-bc4e-0654131821e2" />) |
-| !(<img width="1737" height="925" alt="2026-05-07_22-05-40" src="https://github.com/user-attachments/assets/6472337f-a9fd-4448-abc1-21180707e069" />) | !(<img width="946" height="647" alt="2026-05-07_22-12-09" src="https://github.com/user-attachments/assets/be5907d7-2e6c-40c7-b74e-2a378cabdd54" />) |
+| <img width="1740" height="928" alt="2026-05-07_22-07-42" src="https://github.com/user-attachments/assets/08f199aa-6255-4599-9ab8-6f615baaf3e5" /> | <img width="955" height="650" alt="image" src="https://github.com/user-attachments/assets/15e8f5b6-6f84-49f1-bc4e-0654131821e2" /> |
+| !(<img width="1737" height="925" alt="2026-05-07_22-05-40" src="https://github.com/user-attachments/assets/6472337f-a9fd-4448-abc1-21180707e069" />) | <img width="946" height="647" alt="2026-05-07_22-12-09" src="https://github.com/user-attachments/assets/be5907d7-2e6c-40c7-b74e-2a378cabdd54" /> |
 ---
