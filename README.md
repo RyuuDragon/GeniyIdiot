@@ -2,7 +2,7 @@
 Шуточная игра для выставления "шуточного" диагноза игроку. Написан для консоли и в WinForms-приложении с использованием общей библиотеки и сохранением файлов в формате json.
 # 🩺 Гений/Идиот — поставь себе шуточный диагноз
 
-[![.NET](https://img.shields.io/badge/.NET-10.0%20Preview-orange?style=for-the-badge&logo=dotnet&logoColor=white)]()
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)]()
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Console-lightgrey)]()
 
 > Консольное и Windows Forms приложение, которое с серьезным видом ставит вам абсолютно несерьезный диагноз. Проект демонстрирует разделение логики и интерфейса через общую библиотеку классов.
