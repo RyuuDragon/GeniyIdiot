@@ -106,3 +106,6 @@ public static List<string[]> GetAll()
     var usersResults = JsonConvert.DeserializeObject<List<string[]>>(data);
     return usersResults;
 }
+
+<img width="400" height="220" alt="Запись 2026-05-07 225011" src="https://github.com/user-attachments/assets/7db8f114-65a4-4f64-a904-eb6ccf5027be" />
+
